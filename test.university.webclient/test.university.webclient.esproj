@@ -8,4 +8,11 @@
     <!-- Folder where production build objects will be placed -->
     <BuildOutputFolder>$(MSBuildProjectDirectory)\dist</BuildOutputFolder>
   </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="src\components\forms\" />
+    <Folder Include="src\components\tables\" />
+    <Folder Include="src\hooks\" />
+    <Folder Include="src\services\" />
+    <Folder Include="src\pages\profesor\" />
+  </ItemGroup>
 </Project>
